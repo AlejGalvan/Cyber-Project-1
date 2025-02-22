@@ -30,11 +30,11 @@ int main() {
 
 	// Encrypt file
 	if (choice == 1) {
-		cout << endl << "Which file would you like to encrpyt: ";
+		cout << endl << "Which file would you like to encrypt: ";
 		cin >> inputFile;
 		cout << endl << "And where would you like for me to store it: ";
 		cin >> outputFile;
-		cout << endl << "I'm just going to need a password to help encrpyt the file." << endl;
+		cout << endl << "I'm just going to need a password to help encrypt the file." << endl;
 		cout << "Make sure it is at least 8 characters long, with no spaces." << endl;
 		cout << "Go ahead: ";
 		cin >> password;
@@ -52,11 +52,11 @@ int main() {
 		cout << endl << "All done! See you next time!" << endl;
 	// Decrypt file
     	} else if (choice == 8) {
-		cout << endl << "Which file would you like to decrpyt: ";
+		cout << endl << "Which file would you like to decrypt: ";
 		cin >> inputFile;
 		cout << endl << "And where would you like for me to store it: ";
 		cin >> outputFile;
-		cout << endl << "I'm just going to need the password you used to encrpyt the file." << endl;
+		cout << endl << "I'm just going to need the password you used to encrypt the file." << endl;
 		cout << "Do you remember it?: ";
 		cin >> password;
 		cout << "Let me make sure this is the right one." << endl;
