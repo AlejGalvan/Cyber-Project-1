@@ -19,7 +19,7 @@ int main() {
     	string password;
 
 	cout << "Hello, I am Sylphrena, but you can call me Syl and I can encrypt and decrypt" << endl;
-	cout << "your files for you! Would you like to encrypt(1) or decrpypt(8)?: ";
+	cout << "your files for you! Would you like to encrypt(1) or decrypt(8)?: ";
     	cin >> choice;
 
 	while (choice != 1 && choice != 8) {
