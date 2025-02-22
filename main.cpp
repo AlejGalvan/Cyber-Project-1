@@ -59,7 +59,7 @@ int main() {
 		cout << endl << "I'm just going to need the password you used to encrpyt the file." << endl;
 		cout << "Do you remember it?: ";
 		cin >> password;
-		cout << "Let me make sure this is the right one.";
+		cout << "Let me make sure this is the right one." << endl;
 
 		// Check password
 		while(chances > 0) {
